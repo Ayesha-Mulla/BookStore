@@ -1,0 +1,37 @@
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Courses</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+
+  <!--Header-->
+  <div class="header">E - Learning</div>
+
+  <!--Loader-->
+  <div id="loader" class="loader">
+    <svg class="spinner" width="66px" height="66px" stroke-width="5" viewBox="0 0 66 66">
+      <circle cx="33" cy="33" r="25"></circle>
+    </svg>
+  </div>
+
+  <!--Content-->
+  <div id="content" class="root root-children">
+  </div>
+
+  <script>
+    // A function to return the API URL.
+    function getApiUrl(){
+      return "https://gist.githubusercontent.com/Ayesha-Mulla/3135dbce134acadfed47b3d95268fba9/raw/2eb29ca49fb1610447bedfbb6d8239aa081a8f87/courseData.json";
+    }
+  </script>
+
+
+  <script src="out/production/ELearning/lib/kotlin.js"></script>
+
+  <script src="out/production/ELearning/ELearning.js"></script>
+
+  </body>
+</html>
